@@ -1,0 +1,208 @@
+.navbar-brand {
+    color: red;
+}
+
+.logo {
+    width: 250px;
+}
+
+.logo-clothes {
+    width: 150px;
+}
+
+.logo-container {
+    margin-left: 200px;
+}
+
+.nav {
+    background-color: antiquewhite;
+    color: white;
+    align-items: flex-end;
+}
+
+.nav-form {
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
+.nav-button:hover {
+    color: red;
+}
+
+.style-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.display-orders {
+    display: flex;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: antiquewhite;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.searchBtn {
+    margin-bottom: 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 1px;
+    color: white;
+}
+
+.searchBtn:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.search-show{
+    background-color: burlywood;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-show:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.basket-style {
+    text-align: center;
+}
+
+.basket-box {
+    background-color: aliceblue;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.basket-button {
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.basket-button:focus{
+    outline: none;
+}
+
+.basket-input{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.basket-input:focus{
+    outline: none;
+}
+
+.search-price{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.lowHigh{
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+}
+
+.highLow{
+    border-radius: 10px;
+    background-color: burlywood;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.highLow:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.lowHigh:focus {
+    outline: none;
+    cursor: pointer;
+}
